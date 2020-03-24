@@ -186,12 +186,16 @@ ul.social-network li {
   background-color: #007bb7;
 }
 
+.social-network a.icoFreeCodeCamp:hover {
+  background-color: #087e2f;
+}
+
 .social-network a.icoGitHub:hover {
   background-color: #4c4e50;
 }
 
-.social-network a.icoFreeCodeCamp:hover {
-  background-color: #087e2f;
+.social-network a.icoHackerrank:hover {
+  background-color: #2ca354;
 }
 
 .social-network a.icoEmail:hover {
@@ -202,7 +206,8 @@ ul.social-network li {
 .social-network a.icoLinkedin:hover i,
 .social-network a.icoGitHub:hover i,
 .social-network a.icoFreeCodeCamp:hover i,
-.social-network a.icoEmail:hover i {
+.social-network a.icoEmail:hover i,
+.social-network a.icoHackerrank:hover i {
   color: #fff;
 }
 
@@ -218,6 +223,10 @@ ul.social-network li {
   background-color: #087e2f;
 }
 
+.social-network a.icoHackerrankFot {
+  background-color: #2ca354;
+}
+
 .social-network a.icoEmailFot {
   background-color: #c92626;
 }
@@ -226,7 +235,8 @@ ul.social-network li {
 .social-network a.icoLinkedinFot i,
 .social-network a.icoGitHubFot i,
 .social-network a.icoFreeCodeCampFot i,
-.social-network a.icoEmailFot i {
+.social-network a.icoEmailFot i,
+.social-network a.icoHackerrankFot i {
   color: #fff;
 }
 
@@ -282,7 +292,42 @@ ul.social-network li {
 
 
 
-/******************* Timeline Demo - 1 *****************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************* Timeline  *****************/
 
 
 a{text-decoration:none}
@@ -347,4 +392,4 @@ h4{text-align:center;margin:30px 0;color:#444}
 .main-timeline .timeline-content:after,.main-timeline .timeline:nth-child(2n) .timeline-content:after{left:65px}
 }
 
-/******************* Timeline Demo - 2 *****************/
+/******************* Timeline *****************/
