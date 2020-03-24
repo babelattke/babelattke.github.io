@@ -61,14 +61,14 @@ section {
 
 .hello-text {
   font-family: 'Work Sans', sans-serif;
-  color: yellow;
+  color: #fbd214;
   font-size: 2rem;
 }
 
 .brand-text {
   font-family: 'Work Sans', sans-serif;
   color: white;
-  font-size: 4rem;
+  font-size: 3.6rem;
   text-transform: uppercase;
   letter-spacing: .1em;
   font-weight: bold;
@@ -76,7 +76,7 @@ section {
 
 .student-text {
   font-family: 'Work Sans', sans-serif;
-  color: yellow;
+  color: #fbd214;
   font-size: 1rem;
   margin: 0px;
 } 
