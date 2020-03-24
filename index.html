@@ -13,34 +13,33 @@
   </head>
   <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-company-white fixed-top">
     <a class="navbar-brand" href="#">
-      <img src="https://image.flaticon.com/icons/svg/2721/2721266.svg" width="40" height="40" alt="">
+      <img src="logo.png" width="160" height="40" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
+      <ul class="navbar-nav ml-auto">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="#">Welcome</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>        
       </ul>
     </div>
   </nav>
 
     
-    <section class="main-bkg">
-      <div class="container" >
-        <div class="row main-content">
-          <div class="col">
-            <section class="main-header">
+   
+      <div class="container-fluid main-bkg" >
+        <div class="row">
+          <div class="col-12 col-md-8 main-header">            
               <h1 class="hello-text">Hello! I am</h1>
               <p class="brand-text">Mauricio Lattke</p>
               <p class="student-text">Windows SysAdmin</p>
@@ -52,26 +51,29 @@
                 
                 You can find me in LinkedIn, download my resume or send me an email.</p>
                 <br>
-              <ul class="social-network social-circle">
-              <!-- <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li> -->
-              <li><a href="https://www.linkedin.com/in/mauricio-lattke" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="https://github.com/babelattke" class="icoGitHub" title="GitHub"><i class="fa fa-github"></i></a></li>
-              <li><a href="https://www.freecodecamp.org/babelattke" target="_blank" class="icoFreeCodeCamp" title="FreeCodeCamp"><i class="fa fa-free-code-camp"></i></a></li>
-              <li><a href="mailto:mauricio.lattke@gmail.com" class="icoEmail" title="Email"><i class="fa fa-envelope"></i></a></li>
-            </section>
+
+              <div class="text-center">
+                <ul class="social-network social-circle">
+                <!-- <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li> -->
+                <li><a href="https://www.linkedin.com/in/mauricio-lattke" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/babelattke" class="icoGitHub" title="GitHub"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.freecodecamp.org/babelattke" target="_blank" class="icoFreeCodeCamp" title="FreeCodeCamp"><i class="fa fa-free-code-camp"></i></a></li>
+                <li><a href="mailto:mauricio.lattke@gmail.com" class="icoEmail" title="Email"><i class="fa fa-envelope"></i></a></li>    
+                </ul>    
+              </div>    
           </div>
         </div>        
       </div>
-    </section>
+    
 
 
-    <section class="bkg-gray">
-      <div class="container">
-        <h4 class="hello-text">Experience</h4>
+    <section>
+      <div class="container" id="experience">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12">              
                 <div class="main-timeline">
-                    <a href="#" class="timeline">
+                    <div class="timeline">
+                      <h4 class="titles">experience</h4>
                         <div class="timeline-icon"><i class="fa fa-university"></i></div>
                         <div class="timeline-content">
                             <h3 class="title">Microsoft Windows Administrator</h3>
@@ -90,8 +92,8 @@
                               outside of bank's secured network using ADFS and single sign on with Citrix.
                             </p>
                         </div>
-                    </a>
-                    <a href="#" class="timeline">
+                      </div>
+                      <div class="timeline">
                         <div class="timeline-icon"><i class="fa fa-code"></i></div>
                         <div class="timeline-content">
                             <h3 class="title">IT Operations Manager</h3>
@@ -121,8 +123,8 @@
                               Management of Kayako Help Desk solution in order to work accord company's SLA.Management of Kayako Help Desk solution in order to work accord company's SLA.
                             </p>
                         </div>
-                    </a>
-                    <a href="#" class="timeline">
+                    </div>
+                    <div class="timeline">
                         <div class="timeline-icon"><i class="fa fa-shield"></i></div>
                         <div class="timeline-content">
                             <h3 class="title">IT Analyst</h3>
@@ -140,8 +142,8 @@
                               Administered LAN and provided troubleshooting for systems or networking related issues.
                             </p>
                         </div>
-                    </a>
-                    <a href="#" class="timeline">
+                    </div>
+                    <div class="timeline">
                         <div class="timeline-icon"><i class="fa fa-user-secret"></i></div>
                         <div class="timeline-content">
                             <h3 class="title">IT Analyst</h3>
@@ -162,13 +164,32 @@
                 </div>
             </div>
         </div>
+    </div>    
+    </section>
+
+<!--Footer-->
+<footer class="mainfooter" role="contentinfo" id="contact">
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">  
+        <div class="col text-center pb-2">
+            <ul class="social-network social-circle">
+            <!-- <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li> -->
+            <li><a href="https://www.linkedin.com/in/mauricio-lattke" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/babelattke" class="icoGitHub" title="GitHub"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.freecodecamp.org/babelattke" target="_blank" class="icoFreeCodeCamp" title="FreeCodeCamp"><i class="fa fa-free-code-camp"></i></a></li>
+            <li><a href="mailto:mauricio.lattke@gmail.com" class="icoEmail" title="Email"><i class="fa fa-envelope"></i></a></li>    
+            </ul>
+        </div>
     </div>
     <div class="row">
-      <div class="col-md-12 copy">
-          <p class="text-center footer-text">&copy; Copyright 2020 - Mauricio Lattke.  All rights reserved.</p>
-      </div>
+        <div class="col-md-12 copy">
+            <p class="text-center">&copy; Copyright 2020 - Mauricio Lattke.  All rights reserved.</p>
+        </div>
+    </div>
   </div>
-    </section>
+  </div>
+</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
