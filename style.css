@@ -206,6 +206,30 @@ ul.social-network li {
   color: #fff;
 }
 
+.social-network a.icoLinkedinFot {
+  background-color: #007bb7;
+}
+
+.social-network a.icoGitHubFot {
+  background-color: #4c4e50;
+}
+
+.social-network a.icoFreeCodeCampFot {
+  background-color: #087e2f;
+}
+
+.social-network a.icoEmailFot {
+  background-color: #c92626;
+}
+
+.social-network a.icoFacebookFot i,
+.social-network a.icoLinkedinFot i,
+.social-network a.icoGitHubFot i,
+.social-network a.icoFreeCodeCampFot i,
+.social-network a.icoEmailFot i {
+  color: #fff;
+}
+
 .social-network a.socialIcon:hover,
 .socialHoverClass {
   color: #44BCDD;
