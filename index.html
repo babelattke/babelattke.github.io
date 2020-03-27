@@ -22,13 +22,22 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Welcome</a>
+          <a class="nav-link link-scroll" href="#">Welcome</a>
         </li> -->
         <li class="nav-item">
-          <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link link-scroll" href="#me">ME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link link-scroll" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-scroll" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-scroll" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-scroll" href="#contact">Contact</a>
         </li>        
       </ul>
     </div>
@@ -36,7 +45,7 @@
 
     
    
-      <div class="container-fluid main-bkg" >
+      <div class="container-fluid main-bkg" id="me">
         <div class="row">
           <div class="col-12 col-md-8 main-header">            
               <h1 class="hello-text">Hello! I am</h1>
@@ -66,106 +75,204 @@
       </div>
     
 
-
-    <section>
-      <div class="container pt-4" id="experience">
-        <div class="row">
-            <div class="col-md-12">              
-                <div class="main-timeline">
-                    <div class="timeline">
-                      <h4 class="titles">experience</h4>
-                        <div class="timeline-icon"><i class="fa fa-university"></i></div>
-                        <div class="timeline-content">
-                            <h3 class="title">Microsoft Windows Administrator</h3>
-                            <h6>Industrial and Commercial Bank of China - ICBC</h6>
-                            <h6>2017 - 2018</h6>
-                            <p class="description">
-                              Responsible for the migration project of more than 600 servers based on Windows Server 2008 and 2008 R2
-                              to Windows Server 2012 due end of support.
-                            </p><hr>
-                            <p class="description">
-                              Responsible for branch offices user terminals connectivity migration to an updated security infrastructure
-                              designed under Argentinian bank regulations requirements.
-                            </p><hr>
-                            <p class="description">
-                              Responsible of analysis and implementation of Office 365 cloud solutions. Securing its access from inside and
-                              outside of bank's secured network using ADFS and single sign on with Citrix.
-                            </p>
-                        </div>
-                      </div>
-                      <div class="timeline">
-                        <div class="timeline-icon"><i class="fa fa-code"></i></div>
-                        <div class="timeline-content">
-                            <h3 class="title">IT Operations Manager</h3>
-                            <h6>Mobileum Inc.</h6>
-                            <h6>2011 - 2017</h6>
-                            <p class="description">
-                              Responsible for installation, upgrade and migration of the company roaming testing software for multiple
-                              clients across Europe, Asia, USA and Latin America.
-                            </p><hr>
-                            <p class="description">
-                              Commitment to customer service in order to build productive relationships, use tact to solve problems
-                              creatively and achieve high quality results.
-                            </p><hr>
-                            <p class="description">
-                              Researched, tested and implementation of Zabbix monitoring system for more than 150 servers located in
-                              different cities around the globe. Based on Windows and Linux OS.
-                            </p><hr>
-                            <p class="description">
-                              Responsible for hardware shipping and customs permits for a constant technology update plan for company's
-                              servers located in more than 150 cities in USA, Europe, Asia and Latin America.
-                            </p><hr>
-                            <p class="description">
-                              Team leader responsible for the execution of software upgrades as needed or scheduled, including
-                              emergency roll-outs across all the productive platforms.
-                            </p><hr>
-                            <p class="description">
-                              Management of Kayako Help Desk solution in order to work accord company's SLA.Management of Kayako Help Desk solution in order to work accord company's SLA.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline">
-                        <div class="timeline-icon"><i class="fa fa-shield"></i></div>
-                        <div class="timeline-content">
-                            <h3 class="title">IT Analyst</h3>
-                            <h6>Compuline Ltda</h6>
-                            <h6>2008 - 2010</h6>
-                            <p class="description">
-                              Testing and document all changes and improvements to backup plans to production servers as Active
-                              Directory, IIS and SQL.
-                            </p><hr>
-                            <p class="description">
-                              Managed Windows XP, 7, Server 2008, 2008, 2008 R2 Troubleshoot network, routing and connectivity issues
-                              across various platforms.
-                            </p><hr>
-                            <p class="description">
-                              Administered LAN and provided troubleshooting for systems or networking related issues.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline">
-                        <div class="timeline-icon"><i class="fa fa-user-secret"></i></div>
-                        <div class="timeline-content">
-                            <h3 class="title">IT Analyst</h3>
-                            <h6>INPEC (Government penitentiary institution)</h6>
-                            <h6>2006 - 2007</h6>
-                            <p class="description">
-                              Provided in-house and client tech support for all levels.
-                            </p><hr>
-                            <p class="description">
-                              Created and updated network documentation and inventory
-                            </p><hr>
-                            <p class="description">
-                              Conducted training sessions for new employees across different departments in the company as accounting, 
-                              RRHH, administrative.
-                            </p>
-                        </div>
-                    </a>
-                </div>
+<!-- Experience Section        -->
+<section id="experience" class="bkg-gray pb-3">
+  <div class="container">
+    <header class="mb-5 pt-4 ">
+      <h2 class="text-uppercase lined titles">Experience</h2>
+    </header>
+    <!--  Timeline -->
+    <ul class="timeline">
+          <!-- Timeline item-->
+          <li class="timeline-item ml-3 pb-4">
+            <div class="timeline-arrow"></div>
+            <div class="row no-gutter">
+              <div class="col-lg-5 mb-4 mb-lg-0">
+                <p class="font-weight-bold mb-2 student-text">2017 – 2018 </p>
+                <h2 class="h5 mb-0 text-uppercase">Industrial and Commercial Bank of China - ICBC</h2>
+                <p class="text-small mb-0">Microsoft Windows Administrator</p>
+                <span class="text-muted">Buenos Aires, Argentina <img src="https://image.flaticon.com/icons/svg/203/203039.svg" width="30" height="30"></span>
+              </div>
+              
             </div>
-        </div>
-    </div>    
-    </section>
+          </li>
+          <!-- Timeline item-->
+          <li class="timeline-item ml-3 pb-4">
+            <div class="timeline-arrow"></div>
+            <div class="row no-gutter">
+              <div class="col-lg-5 mb-4 mb-lg-0">
+                <p class="font-weight-bold mb-2 student-text">2011 - 2017 </p>
+                <h2 class="h5 mb-0 text-uppercase">Mobileum inc.</h2>
+                <p class="text-small mb-0">IT Operations Manager</p>
+                <span class="text-muted">Buenos Aires, Argentina <img src="https://image.flaticon.com/icons/svg/203/203039.svg" width="30" height="30"></span>
+              </div>
+              
+            </div>
+          </li>
+          <!-- Timeline item-->
+          <li class="timeline-item ml-3 pb-4">
+            <div class="timeline-arrow"></div>
+            <div class="row no-gutter">
+              <div class="col-lg-5 mb-4 mb-lg-0">
+                <p class="font-weight-bold mb-2 student-text">2008 - 2010 </p>
+                <h2 class="h5 mb-0 text-uppercase">Compuline Ltda.</h2>
+                <p class="text-small mb-0">IT Analyst</p>
+                <span class="text-muted">Bogota, Colombia <img src="https://image.flaticon.com/icons/svg/203/203041.svg" width="30" height="30"></span>
+              </div>
+              
+            </div>
+          </li>
+          <!-- Timeline item-->
+          <li class="timeline-item ml-3 pb-4">
+            <div class="timeline-arrow"></div>
+            <div class="row no-gutter">
+              <div class="col-lg-5 mb-4 mb-lg-0">
+                <p class="font-weight-bold mb-2 student-text">2006 - 2007 </p>
+                <h2 class="h5 mb-0 text-uppercase">INPEC (Government penitentiary institution)</h2>
+                <p class="text-small mb-0">IT Analyst</p>
+                <span class="text-muted">Bogota, Colombia <img src="https://image.flaticon.com/icons/svg/203/203041.svg" width="30" height="30"></span>
+              </div>
+              
+            </div>
+          </li>
+          <!-- Timeline item-->
+          <li class="timeline-item ml-3 pb-4">
+            <div class="timeline-arrow"></div>
+            <div class="row no-gutter">
+              <div class="col-lg-5 mb-4 mb-lg-0">
+                <p class="font-weight-bold mb-2 student-text">2005 </p>
+                <h2 class="h5 mb-0 text-uppercase">Real Time Solutions</h2>
+                <p class="text-small mb-0">IT Analyst</p>
+                <span class="text-muted">Bogota, Colombia <img src="https://image.flaticon.com/icons/svg/203/203041.svg" width="30" height="30"></span>
+              </div>
+              
+            </div>
+          </li>
+    </ul>
+  </div>
+</section>
+    <!-- Education Section-->
+    <section id="education" class="bkg-white pb-3">
+      <div class="container">
+        <header class="mb-5 pt-4 ">
+          <h2 class="text-uppercase lined titles">Education</h2>
+        </header>
+        <!--  Timeline -->
+        <ul class="timeline">
+              <!-- Timeline item-->
+              <li class="timeline-item ml-3 pb-4">
+                <div class="timeline-arrow"></div>
+                <div class="row no-gutter">
+                  <div class="col-lg-5 mb-4 mb-lg-0">
+                    <p class="font-weight-bold mb-2 student-text">2007 – 2010 </p>
+                    <h2 class="h5 mb-0 text-uppercase">Bachelor of Computer Science</h2>
+                    <p class="text-small mb-0">Fundacion Universitaria Panamericana</p>
+                    <span class="text-muted">Bogota, Colombia <img src="https://image.flaticon.com/icons/svg/203/203041.svg" width="30" height="30"></span>
+                  </div>
+                  
+                </div>
+              </li>
+              <!-- Timeline item-->
+              <li class="timeline-item ml-3 pb-4">
+                <div class="timeline-arrow"></div>
+                <div class="row no-gutter">
+                  <div class="col-lg-5 mb-4 mb-lg-0">
+                    <p class="font-weight-bold mb-2 student-text">2019 - 2020 </p>
+                    <h2 class="h5 mb-0 text-uppercase">Microsoft .Net Network Specialist</h2>
+                    <p class="text-small mb-0">IBT College</p>
+                    <span class="text-muted">Toronto, Canada <img src="https://image.flaticon.com/icons/svg/202/202895.svg" width="30" height="30"></span>
+                  </div>
+                  
+                </div>
+              </li>
+              <!-- Timeline item-->
+              <li class="timeline-item ml-3 pb-4">
+                <div class="timeline-arrow"></div>
+                <div class="row no-gutter">
+                  <div class="col-lg-5 mb-4 mb-lg-0">
+                    <p class="font-weight-bold mb-2 student-text">2018 </p>
+                    <h2 class="h5 mb-0 text-uppercase">Microsoft Inc.</h2>
+                    <p class="text-small mb-0">Office 365 Security and Compliance</p>
+                    <span class="text-muted">Buenos Aires, Argentina <img src="https://image.flaticon.com/icons/svg/203/203039.svg" width="30" height="30"></span>
+                  </div>
+                  
+                </div>
+              </li>
+              <!-- Timeline item-->
+              <li class="timeline-item ml-3 pb-4">
+                <div class="timeline-arrow"></div>
+                <div class="row no-gutter">
+                  <div class="col-lg-5 mb-4 mb-lg-0">
+                    <p class="font-weight-bold mb-2 student-text">2006 - 2007 </p>
+                    <h2 class="h5 mb-0 text-uppercase">Microsoft Inc.</h2>
+                    <p class="text-small mb-0">Windows PowerShell v4.0</p>
+                    <span class="text-muted">Buenos Aires, Argentina <img src="https://image.flaticon.com/icons/svg/203/203039.svg" width="30" height="30"></span>
+                  </div>
+                  
+                </div>
+              </li>              
+        </ul>
+      </div>
+    </section> 
+
+    <!-- Skills Section        -->
+
+    <section id="skills" class="bkg-gray pb-3">
+      <div class="container">
+        <header class="mb-5 pt-4 ">
+          <h2 class="text-uppercase lined titles">Skills</h2>
+        </header>
+        <!--  Timeline -->
+        <ul class="timeline">
+              <!-- Timeline item-->
+              <li class="timeline-item ml-3 pb-4">
+                <div class="timeline-arrow"></div>
+                <div class="row no-gutter">
+                  <div class="col-lg-5 mb-4 mb-lg-0">
+                    <p class="font-weight-bold mb-2 student-text">Technical Skills </p>
+                    <h2 class="h5 my-1 text-uppercase">Windows Servers</h2>
+                    <h2 class="h5 my-1 text-uppercase">Virtualization (Azure/VMWare)</h2>
+                    <h2 class="h5 my-1 text-uppercase">Cloud Computing</h2>
+                    <h2 class="h5 my-1 text-uppercase">Storage Systems and Management</h2>
+                    <h2 class="h5 my-1 text-uppercase">Linux and UNIX Systems</h2>
+                    <h2 class="h5 my-1 text-uppercase">Network and Information</h2>                    
+                  </div>
+                  
+                </div>
+              </li>
+              <!-- Timeline item-->
+              <li class="timeline-item ml-3 pb-4">
+                <div class="timeline-arrow"></div>
+                <div class="row no-gutter">
+                  <div class="col-lg-5 mb-4 mb-lg-0">
+                    <p class="font-weight-bold mb-2 student-text">Soft Skills</p>
+                    <h2 class="h5 my-1 text-uppercase">Communication</h2>
+                    <h2 class="h5 my-1 text-uppercase">Teamwork</h2>
+                    <h2 class="h5 my-1 text-uppercase">Leadership</h2>
+                    <h2 class="h5 my-1 text-uppercase">Time Management</h2>
+                    <h2 class="h5 my-1 text-uppercase">Creative Thinking</h2>
+                  </div>
+                  
+                </div>
+              </li>
+              <!-- Timeline item-->
+              <li class="timeline-item ml-3 pb-4">
+                <div class="timeline-arrow"></div>
+                <div class="row no-gutter">
+                  <div class="col-lg-5 mb-4 mb-lg-0">
+                    <p class="font-weight-bold mb-2 student-text">Languages</p>
+                    <h2 class="h5 mb-0 text-uppercase">Spanish</h2>
+                    <p class="text-small mb-0">Native</p>
+                    <h2 class="h5 mb-0 text-uppercase pt-3">English</h2>
+                    <p class="text-small mb-0">Advanced English knowledge. Professional and personal usage</p>
+                  </div>                  
+                </div>
+              </li>
+                            
+        </ul>
+      </div>
+    </section>    
+    <!-- Skills Section        -->
 
 <!--Footer-->
 <footer class="mainfooter" role="contentinfo" id="contact">
@@ -174,7 +281,7 @@
     <div class="row">  
         <div class="col text-center pb-4">
             <ul class="social-network social-circle">
-              <p class="pb-2 info-text">Toronto, Canada <img src="https://image.flaticon.com/icons/svg/2484/2484225.svg" width="30" height="30" class=></p> 
+              <p class="pb-2 info-text">Toronto, Canada <img src="https://image.flaticon.com/icons/svg/2484/2484225.svg" width="30" height="30" ></p> 
             <li><a href="https://www.linkedin.com/in/mauricio-lattke" class="icoLinkedinFot" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
             <li><a href="https://www.freecodecamp.org/babelattke" target="_blank" class="icoFreeCodeCampFot" title="FreeCodeCamp"><i class="fab fa-free-code-camp"></i></a></li>
             <li><a href="https://github.com/babelattke" class="icoGitHubFot" title="GitHub"><i class="fab fa-github"></i></a></li>
