@@ -20,7 +20,11 @@ section {
   font-weight: bold;
   text-transform: uppercase; 
   letter-spacing: .1em;
-  color: #3f3e3e !important;
+  color: #3f3e3e;
+}
+
+.nav-link.active, .nav-link:hover, .nav-link:focus {
+  color: #fbd214;
 }
 
 .bg-company-white {
@@ -78,6 +82,15 @@ section {
   font-weight: bold;
 } 
 
+.brand-text-footer {
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+} 
+
 .student-text {
   font-family: 'Work Sans', sans-serif;
   color: #fbd214;
@@ -123,6 +136,11 @@ section {
 .card-img {
   width: 100%;
   height: 50%;  
+}
+
+:target{
+  padding-top: 65px; /* = to height of navbar */
+  margin-top: -65px;
 }
 
 
@@ -233,6 +251,7 @@ footer {
   background: linear-gradient(59deg, #3A6073, #16222A);
   color: white;
   margin-top:100px;
+  padding: 0 !important;
 }
 
 footer a {
@@ -301,12 +320,19 @@ ul.social-network li {
   background-color: #c92626;
 }
 
+.social-network a.icoPDF:hover {
+  background-color: #c90e0e;
+}
+
+
+
 .social-network a.icoFacebook:hover i,
 .social-network a.icoLinkedin:hover i,
 .social-network a.icoGitHub:hover i,
 .social-network a.icoFreeCodeCamp:hover i,
 .social-network a.icoEmail:hover i,
-.social-network a.icoHackerrank:hover i {
+.social-network a.icoHackerrank:hover i,
+.social-network a.icoPDF:hover i {
   color: #fff;
 }
 
